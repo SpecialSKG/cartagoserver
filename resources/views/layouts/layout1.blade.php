@@ -1,6 +1,6 @@
 <!--Variety music-->
 <!DOCTYPE html>
-<html class="wide wow-animation" lang="en">
+<html class="wide wow-animation" lang="{{ str_replace('_', '-', app()->getLocale()) }}"">
 
 <head>
     <title>Cartago - @yield('titulo')</title>
