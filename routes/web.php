@@ -1,12 +1,6 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use App\http\Controllers\InicioController;
-use App\http\Controllers\AcercaController;
-use App\http\Controllers\ServersController;
-use App\http\Controllers\TiendaController;
-use App\http\Controllers\DonacionesController;
-
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -26,9 +20,8 @@ Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
     return view('dashboard');
 })->name('dashboard');
 
-
-Route::get('/Inicio', [InicioController::class, 'index']);
-Route::get('/Acerca', [AcercaController::class, 'index']);
-Route::get('/Servers', [ServersController::class, 'index']);
-Route::get('/Tienda', [TiendaController::class, 'index']);
-Route::get('/Donaciones', [DonacionesController::class, 'index']);
+Route::get('/Inicio','App\http\Controllers\InicioController@index');
+Route::get('/Acerca','App\http\Controllers\AcercaController@index');
+Route::get('/Servers','App\http\Controllers\ServersController@index');
+Route::get('/Tienda','App\http\Controllers\TiendaController@index');
+Route::get('/Donaciones','App\http\Controllers\DonacionesController@index');
