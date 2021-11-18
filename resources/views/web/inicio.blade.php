@@ -93,7 +93,7 @@
                             <img src="{{ URL::asset('images/categorias/shopping_list_icon_192691.ico') }}" alt="" width="60" />
                         </div>
                         <figcaption><span>Articulos</span>
-                            <p>We pick the best House music for our listeners.</p>
+                            <p>Una variedad de artículos desde armaduras, herramientas, armas, comida.</p>
                         </figcaption>
                     </figure>
                 </a>
@@ -104,7 +104,7 @@
                             <img src="{{ URL::asset('images/categorias/cash_register_icon_192650.ico') }}" alt="" width="60" />
                         </div>
                         <figcaption><span>Venta</span>
-                            <p>Enjoy top-notch Liquid D&amp;B and Neurofunk music on our radio.</p>
+                            <p>Una variedad de objetos que puedes recolectar y venderlos para recibir puntos extras.</p>
                         </figcaption>
                     </figure>
                 </a>
@@ -115,7 +115,7 @@
                             <img src="{{ URL::asset('images/categorias/Alpha_Aberrant_Ascension_Implant.png') }}" alt="" width="60" />
                         </div>
                         <figcaption><span>Ascension</span>
-                            <p>Dozens of new Dubstep tracks are aired regularly on OnWave.</p>
+                            <p>Las diferentes ascensiones de todos los mapas, estas únicamente otorgan nivel de jugador.</p>
                         </figcaption>
                     </figure>
                 </a>
@@ -126,7 +126,7 @@
                             <img src="{{ URL::asset('images/categorias/Artifact_of_the_Strong.png') }}" alt="" width="60" />
                         </div>
                         <figcaption><span>Artefactos</span>
-                            <p>Our DJs broadcast various Trance tracks on OnWave.</p>
+                            <p>Al vivir tribus en cueva de artefactos, puedes adquirirlos en nuestra tienda.</p>
                         </figcaption>
                     </figure>
                 </a>
@@ -137,7 +137,7 @@
                             <img src="{{ URL::asset('images/categorias/thylacoleo.png') }}" alt="" width="80" />
                         </div>
                         <figcaption><span>Dinos</span>
-                            <p>Listen to the top-notch Breaks selection on OnWave.</p>
+                            <p>Toda la diversidad de dinos principales del juego, con diferentes niveles entre algunas especies, genero aleatorio.</p>
                         </figcaption>
                     </figure>
                 </a>
@@ -148,7 +148,7 @@
                             <img src="{{ URL::asset('images/categorias/Tek_Trike.png') }}" alt="" width="80" />
                         </div>
                         <figcaption><span>Dinos Tek</span>
-                            <p>Discover all subgenres of legendary Techno on our radio.</p>
+                            <p>Todos los dinos versión Tek.</p>
                         </figcaption>
                     </figure>
                 </a>
@@ -160,7 +160,7 @@
                             <img src="{{ URL::asset('images/categorias/magmasaur.png') }}" alt="" width="100" />
                         </div>
                         <figcaption><span>Dinos 362</span>
-                            <p>Weekly concerts and rock exclusives - only on OnWave..</p>
+                            <p>Listado de dinos de mayor nivel, que puedes adquirir con una donación para obtener una cantidad de puntos para comprarlo ò ahorrar puntos para comprarlo.</p>
                         </figcaption>
                     </figure>
                 </a>
@@ -171,7 +171,7 @@
                             <img src="{{ URL::asset('images/categorias/stryder.png') }}" alt="" width="80" />
                         </div>
                         <figcaption><span>Dinos Gen2</span>
-                            <p>We pick the best Jazz music for our listeners.</p>
+                            <p>Todos los dinos del mapa Genesis 2.</p>
                         </figcaption>
                     </figure>
                 </a>
@@ -182,7 +182,7 @@
                             <img src="{{ URL::asset('images/categorias/Dossier_Dragon.png') }}" alt="" width="110" />
                         </div>
                         <figcaption><span>Engramas</span>
-                            <p>Discover all subgenres of legendary Techno on our radio.</p>
+                            <p>Los engramas de todos los boss de Ark, en sus diferentes niveles de dificultad.</p>
                         </figcaption>
                     </figure>
                 </a>
@@ -193,7 +193,7 @@
                             <img src="{{ URL::asset('images/categorias/Rex_Saddle.png') }}" alt="" width="80" />
                         </div>
                         <figcaption><span>Monturas</span>
-                            <p>Weekly concerts and rock exclusives - only on OnWave..</p>
+                            <p>Monturas para un listado exclusivo de dinosaurios, en calidad alta dándote sus estadísticas de forma aleatoria.</p>
                         </figcaption>
                     </figure>
                 </a>
@@ -204,7 +204,7 @@
                             <img src="{{ URL::asset('images/categorias/box_parcel_icon_192643.ico') }}" alt="" width="70" />
                         </div>
                         <figcaption><span>Cajas</span>
-                            <p>We pick the best Jazz music for our listeners.</p>
+                            <p>Nuestro listado de cajas para los jugadores y que puedan observar el contenido diferente para cada una de ellas. </p>
                         </figcaption>
                     </figure>
                 </a>
