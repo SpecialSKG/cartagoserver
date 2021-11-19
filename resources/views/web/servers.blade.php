@@ -142,15 +142,15 @@
                     <ul class="instafeed instagram-gallery" data-lightgallery="group">
                         <li>
                             <a class="instagram-item" data-lightgallery="item"
-                                href="{{ URL::asset('images/servers/Diapositiva1.png') }}">
-                                <img src="{{ URL::asset('images/servers/Diapositiva1.png') }}" alt="" width="150"
+                                href="{{ URL::asset('images/servers/RatesSpanish.png') }}">
+                                <img src="{{ URL::asset('images/servers/RatesSpanish.png') }}" alt="" width="150"
                                     height="72" />
                             </a>
                         </li>
                         <li>
                             <a class="instagram-item" data-lightgallery="item"
-                                href="{{ URL::asset('images/servers/Diapositiva2.png') }}">
-                                <img src="{{ URL::asset('images/servers/Diapositiva2.png') }}" alt="" width="150"
+                                href="{{ URL::asset('images/servers/RatesEnglish.png') }}">
+                                <img src="{{ URL::asset('images/servers/RatesEnglish.png') }}" alt="" width="150"
                                     height="72" />
                             </a>
                         </li>
@@ -162,15 +162,15 @@
                     <ul class="instafeed instagram-gallery" data-lightgallery="group">
                         <li>
                             <a class="instagram-item" data-lightgallery="item"
-                                href="{{ URL::asset('images/servers/reglas1.png') }}">
-                                <img src="{{ URL::asset('images/servers/reglas1.png') }}" alt="" width="150"
+                                href="{{ URL::asset('images/servers/RulesSpanish.png') }}">
+                                <img src="{{ URL::asset('images/servers/RulesSpanish.png') }}" alt="" width="150"
                                     height="72" />
                             </a>
                         </li>
                         <li>
                             <a class="instagram-item" data-lightgallery="item"
-                                href="{{ URL::asset('images/servers/reglas2.png') }}">
-                                <img src="{{ URL::asset('images/servers/reglas2.png') }}" alt="" width="150"
+                                href="{{ URL::asset('images/servers/RulesEnglish.png') }}">
+                                <img src="{{ URL::asset('images/servers/RulesEnglish.png') }}" alt="" width="150"
                                     height="72" />
                             </a>
                         </li>
