@@ -1,7 +1,11 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\InicioController;
+use App\Http\Controllers\AcercaController;
 use App\Http\Controllers\ServersController;
+use App\Http\Controllers\DonacionesController;
+use App\Http\Controllers\TiendaController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -21,11 +25,9 @@ Route::get('/', function () {
     return view('dashboard');
 })->name('dashboard'); */
 
+Route::get('Inicio', [InicioController::class, 'index']);
+Route::get('Acerca', [AcercaController::class, 'index']);
 Route::get('Servers', [ServersController::class, 'index']);
+Route::get('Donaciones', [DonacionesController::class, 'index']);
+Route::get('Tienda', [TiendaController::class, 'index']);
 
-
-Route::get('/Inicio','App\http\Controllers\InicioController@index');
-Route::get('/Acerca','App\http\Controllers\AcercaController@index');
-/* Route::get('/Servers','App\http\Controllers\ServersController@index'); */
-Route::get('/Tienda','App\http\Controllers\TiendaController@index');
-Route::get('/Donaciones','App\http\Controllers\DonacionesController@index');
