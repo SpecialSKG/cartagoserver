@@ -21,8 +21,8 @@
 
                 <div class="col-md-6">
                     <div class="heading-6">
-                        Las donaciones no son con el fin de convertir el server en un “pay to win”, Por esa razon, las
-                        donaciones serían un “pay to fast”. No hay nada en la tienda, mejor que lo que se pueda conseguir
+                        Las donaciones no son con el fin de convertir el server en un <span class="font-weight-bold">“pay to win”</span>, Por esa razon, las
+                        donaciones serían un <span class="font-weight-bold">“pay to fast”</span>. No hay nada en la tienda, mejor que lo que se pueda conseguir
                         jugando, algunos ejemplos:
                     </div>
                     <ul class="list-marked">
@@ -252,14 +252,6 @@
                     </p>
                 </div>
 
-            </div>
-        </div>
-    </section>
-
-    <!-- Unordered List-->
-    <section class="section section-lg bg-default">
-        <div class="container">
-            <div class="row row-50">
                 <div class="col-sm-6 col-lg-10 col-xl-6">
                     <h2>Puntos</h2>
 
@@ -373,7 +365,8 @@
                     <h5>Más Información del contenido de cada caja en la sección Tienda</h5>
                 </div>
 
-                <div class="col-sm-6 col-lg-10 col-xl-8">
+                <div class="col-sm-10 col-lg-10 col-xl-8">
+                    <p class="text-block"></p>
                     <h2>Plugins Disponibles</h2>
 
                     <h5>Simple dino stats</h5>

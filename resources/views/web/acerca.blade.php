@@ -16,10 +16,9 @@
     <section class="section section-lg custom-image-section">
         <div class="container relative-container">
             <div class="row row-30 row-md-60 justify-content-between">
-                <div class="col-md-12">
+                <div class="col-sm-12 col-md-6 col-lg-6">
                     <h2>Nuestra misión</h2>
-                </div>
-                <div class="col-md-6">
+
                     <div class="heading-6">
                         Que cualquier jugador pueda tener un sitio donde divertirse y conocer nuevas
                         personas.
@@ -31,8 +30,11 @@
                         ustedes.
                     </p>
                 </div>
-                <div class="col-md-6 col-lg-5">
-                    <img src="{{ URL::asset('images/acerca/logoark.png') }}" alt="" width="80%" />
+                <div class="col-sm-12 col-md-6 col-lg-6">
+                    <div class="col-sm-12 col-md-12 col-lg-12">
+                        <img src="{{ URL::asset('images/acerca/logoark.png') }}" alt="" width="80%" />
+                    </div>
+
                     {{-- <div class="progress-linear-wrap">
                         <article class="progress-linear">
                             <div class="progress-header">
@@ -85,9 +87,7 @@
                 <div class="timeline">
                     <div class="date">09 Enero 2021</div>
                     <div class="line"></div>
-                    <a class="media-item" href="#">
-                        <img src="{{ URL::asset('images/acerca/primitivo.jpg') }}" alt="" width="150" height="125" />
-                    </a>
+                    <img src="{{ URL::asset('images/acerca/primitivo.jpg') }}" alt="" width="150" height="125" />
                     <h6 class="title">
                         Server Primitivo
                     </h6>
@@ -99,9 +99,7 @@
                 <div class="timeline">
                     <div class="date">19 Febrero 2021</div>
                     <div class="line"></div>
-                    <a class="media-item" href="#">
-                        <img src="{{ URL::asset('images/acerca/x10_1.jpg') }}" alt="" width="100" height="72" />
-                    </a>
+                    <img src="{{ URL::asset('images/acerca/x10_1.jpg') }}" alt="" width="100" height="72" />
                     <h6 class="title">
                         Server x10
                     </h6>
@@ -113,9 +111,7 @@
                 <div class="timeline">
                     <div class="date">31 Febrero 2021</div>
                     <div class="line"></div>
-                    <a class="media-item" href="#">
-                        <img src="{{ URL::asset('images/acerca/x10_1.jpg') }}" alt="" width="100" height="72" />
-                    </a>
+                    <img src="{{ URL::asset('images/acerca/x10_1.jpg') }}" alt="" width="100" height="72" />
                     <h6 class="title">
                         Server x10
                     </h6>
@@ -127,9 +123,7 @@
                 <div class="timeline">
                     <div class="date">30 Abril 2021</div>
                     <div class="line"></div>
-                    <a class="media-item" href="#">
-                        <img src="{{ URL::asset('images/acerca/x100_1.jpg') }}" alt="" width="100" height="72" />
-                    </a>
+                    <img src="{{ URL::asset('images/acerca/x100_1.jpg') }}" alt="" width="100" height="72" />
                     <h6 class="title">
                         Server x100
                     </h6>
@@ -141,9 +135,7 @@
                 <div class="timeline">
                     <div class="date">26 Mayo 2021</div>
                     <div class="line"></div>
-                    <a class="media-item" href="#">
-                        <img src="{{ URL::asset('images/acerca/x10_1.jpg') }}" alt="" width="100" height="72" />
-                    </a>
+                    <img src="{{ URL::asset('images/acerca/x10_1.jpg') }}" alt="" width="100" height="72" />
                     <h6 class="title">
                         Server x10
                     </h6>
@@ -154,10 +146,7 @@
 
                 <div class="timeline">
                     <div class="date">09 Julio 2021</div>
-                    <div class="line"></div>
-                    <a class="media-item" href="#">
-                        <img src="{{ URL::asset('images/acerca/x100_1.jpg') }}" alt="" width="100" height="72" />
-                    </a>
+                    <img src="{{ URL::asset('images/acerca/x100_1.jpg') }}" alt="" width="100" height="72" />
                     <h6 class="title">
                         Server x100
                     </h6>
@@ -169,9 +158,7 @@
                 <div class="timeline">
                     <div class="date">23 Julio 2021</div>
                     <div class="line"></div>
-                    <a class="media-item" href="#">
-                        <img src="{{ URL::asset('images/acerca/x5_1.jpg') }}" alt="" width="100" height="72" />
-                    </a>
+                    <img src="{{ URL::asset('images/acerca/x5_1.jpg') }}" alt="" width="100" height="72" />
                     <h6 class="title">
                         Server x5
                     </h6>
@@ -183,15 +170,23 @@
                 <div class="timeline">
                     <div class="date">10 Septiembre 2021</div>
                     <div class="line"></div>
-                    <a class="media-item" href="#">
-                        <img src="{{ URL::asset('images/acerca/x10_1.jpg') }}" alt="" width="100" height="72" />
-                    </a>
+                    <img src="{{ URL::asset('images/acerca/x10_1.jpg') }}" alt="" width="100" height="72" />
                     <h6 class="title">
                         Server x10
                     </h6>
                     <p class="exeption">
                         Ragnarok, The Island, Cristal Isles, Extincion, Valguero.
                     </p>
+                </div>
+
+                <div class="timeline">
+                    <div class="date">19 Noviembre 2021</div>
+                    <div class="line"></div>
+                    <img src="{{ URL::asset('images/acerca/x10_1.jpg') }}" alt="" width="100" height="72" />
+                    <h6 class="title">
+                        Server x10
+                    </h6>
+                    <p class="exeption"></p>
                 </div>
 
             </div>
