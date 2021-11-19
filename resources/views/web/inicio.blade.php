@@ -87,7 +87,8 @@
             <p>Ofrecemos a nuestros jugadores una amplia variedad de articulos.</p>
         </div>
         <div class="row row-30 justify-content-center">
-            <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3 wow fadeInLeft"><a class="variety-box-wrapper" href="#">
+            <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3 wow fadeInLeft">
+                <a class="variety-box-wrapper">
                     <figure class="variety-box">
                         <div class="variety-media">
                             <img src="{{ URL::asset('images/categorias/shopping_list_icon_192691.ico') }}" alt="" width="60" />
@@ -98,7 +99,8 @@
                     </figure>
                 </a>
             </div>
-            <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3 wow fadeInLeft"><a class="variety-box-wrapper" href="#">
+            <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3 wow fadeInLeft">
+                <a class="variety-box-wrapper">
                     <figure class="variety-box">
                         <div class="variety-media">
                             <img src="{{ URL::asset('images/categorias/cash_register_icon_192650.ico') }}" alt="" width="60" />
@@ -109,7 +111,8 @@
                     </figure>
                 </a>
             </div>
-            <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3 wow fadeInLeft"><a class="variety-box-wrapper" href="#">
+            <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3 wow fadeInLeft">
+                <a class="variety-box-wrapper">
                     <figure class="variety-box">
                         <div class="variety-media">
                             <img src="{{ URL::asset('images/categorias/Alpha_Aberrant_Ascension_Implant.png') }}" alt="" width="60" />
@@ -120,7 +123,8 @@
                     </figure>
                 </a>
             </div>
-            <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3 wow fadeInLeft"><a class="variety-box-wrapper" href="#">
+            <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3 wow fadeInLeft">
+                <a class="variety-box-wrapper">
                     <figure class="variety-box">
                         <div class="variety-media">
                             <img src="{{ URL::asset('images/categorias/Artifact_of_the_Strong.png') }}" alt="" width="60" />
@@ -131,7 +135,8 @@
                     </figure>
                 </a>
             </div>
-            <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3 wow fadeInLeft"><a class="variety-box-wrapper" href="#">
+            <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3 wow fadeInLeft">
+                <a class="variety-box-wrapper">
                     <figure class="variety-box">
                         <div class="variety-media">
                             <img src="{{ URL::asset('images/categorias/thylacoleo.png') }}" alt="" width="80" />
@@ -142,7 +147,8 @@
                     </figure>
                 </a>
             </div>
-            <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3 wow fadeInLeft"><a class="variety-box-wrapper" href="#">
+            <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3 wow fadeInLeft">
+                <a class="variety-box-wrapper">
                     <figure class="variety-box">
                         <div class="variety-media">
                             <img src="{{ URL::asset('images/categorias/Tek_Trike.png') }}" alt="" width="80" />
@@ -153,7 +159,8 @@
                     </figure>
                 </a>
             </div>
-            <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3 wow fadeInLeft"><a class="variety-box-wrapper" href="#">
+            <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3 wow fadeInLeft">
+                <a class="variety-box-wrapper">
                     <figure class="variety-box">
                         <div class="variety-media" style="display: inline-block !important; flex-direction: row !important;">
                             <img src="{{ URL::asset('images/categorias/shadowmane.png') }}" alt="" width="80" />
@@ -165,7 +172,8 @@
                     </figure>
                 </a>
             </div>
-            <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3 wow fadeInLeft"><a class="variety-box-wrapper" href="#">
+            <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3 wow fadeInLeft">
+                <a class="variety-box-wrapper">
                     <figure class="variety-box">
                         <div class="variety-media">
                             <img src="{{ URL::asset('images/categorias/stryder.png') }}" alt="" width="80" />
@@ -176,7 +184,8 @@
                     </figure>
                 </a>
             </div>
-            <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3 wow fadeInLeft"><a class="variety-box-wrapper" href="#">
+            <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3 wow fadeInLeft">
+                <a class="variety-box-wrapper">
                     <figure class="variety-box">
                         <div class="variety-media">
                             <img src="{{ URL::asset('images/categorias/Dossier_Dragon.png') }}" alt="" width="110" />
@@ -187,7 +196,8 @@
                     </figure>
                 </a>
             </div>
-            <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3 wow fadeInLeft"><a class="variety-box-wrapper" href="#">
+            <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3 wow fadeInLeft">
+                <a class="variety-box-wrapper">
                     <figure class="variety-box">
                         <div class="variety-media">
                             <img src="{{ URL::asset('images/categorias/Rex_Saddle.png') }}" alt="" width="80" />
@@ -198,7 +208,8 @@
                     </figure>
                 </a>
             </div>
-            <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3 wow fadeInLeft"><a class="variety-box-wrapper" href="#">
+            <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3 wow fadeInLeft">
+                <a class="variety-box-wrapper">
                     <figure class="variety-box">
                         <div class="variety-media">
                             <img src="{{ URL::asset('images/categorias/box_parcel_icon_192643.ico') }}" alt="" width="70" />
