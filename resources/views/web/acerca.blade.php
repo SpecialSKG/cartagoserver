@@ -1,9 +1,9 @@
-@extends('layouts.layout1')
+@extends('layouts.layoutWeb')
 @section('titulo', 'Acerca de')
-@section('body')
+@section('bodyWeb')
 
     <!-- Breadcrumbs -->
-    <section class="section section-bredcrumbs" style="background: url(images/cartago/dragon1.png) no-repeat center / cover">
+    <section class="section section-bredcrumbs" style="background: url(images/cartago/w_1.png) no-repeat center / cover">
         <div class="container context-dark breadcrumb-wrapper text-left">
             <h1>Nosotros</h1>
             <ul class="breadcrumbs-custom">

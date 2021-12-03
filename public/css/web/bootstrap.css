@@ -2594,14 +2594,15 @@ input[type="button"].btn-block {
 .dropdown-item:focus {
     color: #16181b;
     text-decoration: none;
-    background-color: #f8f9fa;
+    background-color: rgba(255, 255, 255, 0.377);
 }
 
 .dropdown-item.active,
 .dropdown-item:active {
     color: #fff;
     text-decoration: none;
-    background-color: #007bff;
+    /* background-color: #007bff; */
+    background-image: linear-gradient(to right, #ff0e0682 0%, #e010108c 100%);
 }
 
 .dropdown-item.disabled,

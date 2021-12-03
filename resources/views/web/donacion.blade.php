@@ -1,15 +1,15 @@
-@extends('layouts.layout1')
+@extends('layouts.layoutWeb')
 @section('titulo', 'Donaciones')
-@section('body')
+@section('bodyWeb')
 
     <link href="{{ URL::asset('css/web/card.css') }}" rel="stylesheet">
 
     <!-- Breadcrumbs -->
-    <section class="section section-bredcrumbs" style="background: url(images/cartago/dragon1.png) no-repeat center / cover">
+    <section class="section section-bredcrumbs" style="background: url(images/cartago/w_4.png) no-repeat center / cover">
         <div class="container context-dark breadcrumb-wrapper text-left">
             <h1>Donaciones</h1>
             <ul class="breadcrumbs-custom">
-                <li><a href="/Donaciones">/Inicio</a></li>
+                <li><a href="/Inicio">Inicio</a></li>
                 <li class="active">Donaciones</li>
             </ul>
         </div>
@@ -21,8 +21,10 @@
 
                 <div class="col-md-6">
                     <div class="heading-6">
-                        Las donaciones no son con el fin de convertir el server en un <span class="font-weight-bold">“pay to win”</span>, Por esa razon, las
-                        donaciones serían un <span class="font-weight-bold">“pay to fast”</span>. No hay nada en la tienda, mejor que lo que se pueda conseguir
+                        Las donaciones no son con el fin de convertir el server en un <span class="font-weight-bold">“pay to
+                            win”</span>, Por esa razon, las
+                        donaciones serían un <span class="font-weight-bold">“pay to fast”</span>. No hay nada en la tienda,
+                        mejor que lo que se pueda conseguir
                         jugando, algunos ejemplos:
                     </div>
                     <ul class="list-marked">
@@ -45,9 +47,8 @@
                 <div class="col-md-6 col-lg-5">
                     <div class="heading-6">
                         Link de donaciones:
-                        <a class="button button-primary"
-                            href="https://hosthavoc.com/billing/index.php?m=public_pay&hash_id=2NbkoJp4yK57" target="_blank"
-                            data-caption-animate="fadeInUp" data-caption-delay="450">Host Havoc</a>
+                        <a class="button button-primary" href="https://cartago-servers.tebex.io/" target="_blank"
+                            data-caption-animate="fadeInUp" data-caption-delay="450">Sitio web</a>
                     </div>
                     <br>
                     <div class="heading-6">
@@ -368,6 +369,7 @@
                 <div class="col-sm-10 col-lg-10 col-xl-8">
                     <p class="text-block"></p>
                     <h2>Plugins Disponibles</h2>
+                    <br>
 
                     <h5>Simple dino stats</h5>
                     <p class="text-block">
@@ -376,6 +378,7 @@
                         Dino es de la tribu, con <span class="font-weight-bold">/shazam</span> cambias el nombre por las
                         estadísticas base.
                     </p>
+                    <br>
 
                     <h5>Auto farm</h5>
                     <p class="text-block">
@@ -383,6 +386,7 @@
                             class="font-weight-bold">/farm</span> el dino farmeara en automático, ahorrándose el clic de
                         raton, para desactivar vuelve a poner el comando Viendo al dinosaurio.
                     </p>
+                    <br>
 
                     <h5>Dino color</h5>
                     <p class="text-block">
@@ -394,6 +398,7 @@
                             https://ark.fandom.com/wiki/Color_IDs
                         </a>
                     </p>
+                    <br>
 
                 </div>
 
@@ -404,7 +409,7 @@
                             <img src="{{ URL::asset('images/donaciones/genero.jpg') }}" alt="" width="770" height="512" />
                         </div>
                         <div class="col-md-6">
-                            <h5>3 Token (1.00€ euro)</h5>
+                            <h5>5 Token (2.00€ euro)</h5>
                             <p>
                                 Valido para cambiar el Sexo a 1 dino por token.
                                 Contactar con un Administrador para que sea otorgado el Token.
@@ -417,8 +422,7 @@
                     <h2>Max Lvl Dino</h2>
                     <div class="row row-30 flex-md-row-reverse row-offset-2">
                         <div class="col-md-6">
-                            <img src="{{ URL::asset('images/donaciones/max.jpg') }}" alt="" width="770"
-                                height="512" />
+                            <img src="{{ URL::asset('images/donaciones/max.jpg') }}" alt="" width="770" height="512" />
                         </div>
                         <div class="col-md-6">
                             <h5>(5.00€ euro)</h5>

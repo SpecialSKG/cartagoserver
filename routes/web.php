@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\InicioController;
 use App\Http\Controllers\AcercaController;
+use App\Http\Controllers\CajasController;
 use App\Http\Controllers\ServersController;
 use App\Http\Controllers\DonacionesController;
 use App\Http\Controllers\TiendaController;
@@ -25,9 +26,10 @@ Route::get('/', function () {
     return view('dashboard');
 })->name('dashboard'); */
 
-Route::get('Inicio', [InicioController::class, 'index']);
-Route::get('Acerca', [AcercaController::class, 'index']);
-Route::get('Servers', [ServersController::class, 'index']);
-Route::get('Donaciones', [DonacionesController::class, 'index']);
-Route::get('Tienda', [TiendaController::class, 'index']);
+Route::get('Inicio', [InicioController::class, 'index'])->name('Inicio');
+Route::get('Acerca', [AcercaController::class, 'index'])->name('Acerca');
+Route::get('Servers', [ServersController::class, 'index'])->name('Servers');
+Route::get('Donaciones', [DonacionesController::class, 'index'])->name('Donaciones');
+Route::get('Cajas', [CajasController::class, 'index'])->name('Cajas');
+Route::get('Tienda', [TiendaController::class, 'index'])->name('Tienda');
 

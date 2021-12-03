@@ -1,13 +1,13 @@
-@extends('layouts.layout1')
+@extends('layouts.layoutWeb')
 @section('titulo', 'Servers')
-@section('body')
+@section('bodyWeb')
 
     <!-- Breadcrumbs -->
-    <section class="section section-bredcrumbs" style="background: url(images/cartago/dragon1.png) no-repeat center / cover">
+    <section class="section section-bredcrumbs" style="background: url(images/cartago/w_3.png) no-repeat center / cover">
         <div class="container context-dark breadcrumb-wrapper text-left">
             <h1>Servers</h1>
             <ul class="breadcrumbs-custom">
-                <li><a href="/Inicio">Home</a></li>
+                <li><a href="/Inicio">Inicio</a></li>
                 <li class="active">Servers</li>
             </ul>
         </div>
@@ -82,7 +82,7 @@
                                 href="steam://connect/203.17.245.246:27075">steam://connect/203.17.245.246:27075</a>
                         </li>
                         <li>
-                            Valguero x10/x20 <a class="link-hover"
+                            Genesis2 x10/x20 <a class="link-hover"
                                 href="steam://connect/203.17.245.246:27047">steam://connect/203.17.245.246:27047</a>
                         </li>
                     </ol>
@@ -108,7 +108,7 @@
                         <li>Ragnarok x10/x20 || </li>
                         <li>Cristal Isles x10/x20 || </li>
                         <li>Extinction x10/x20 || </li>
-                        <li>Valguero x10/x20 || </li>
+                        <li>Genesis2 x10/x20 || </li>
                     </ol>
                 </div>
             </div>
@@ -119,7 +119,7 @@
     <section class="section section-lg bg-default">
         <div class="container">
             <div class="row">
-                <div class="col-xl-8">
+                <div class="col-lg-8 offset-lg-2">
                     <ul class="list-xl">
                         <li>
                             <p>Todos los mapas activos tienen cluster entre si.</p>

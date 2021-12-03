@@ -1,11 +1,11 @@
-@extends('layouts.layout1')
+@extends('layouts.layoutWeb')
 @section('titulo', 'Inicio')
-@section('body')
+@section('bodyWeb')
 
 <!-- Swiper-->
 <section class="section swiper-container swiper-slider swiper-slider-2" data-loop="false" data-autoplay="false" data-simulate-touch="false" data-slide-effect="fade">
     <div class="swiper-wrapper">
-        <div class="swiper-slide context-dark" data-slide-bg="{{ URL::asset('images/cartago/dragon1.png') }}">
+        <div class="swiper-slide context-dark" data-slide-bg="{{ URL::asset('images/cartago/w_0.png') }}">
             <div class="swiper-slide-caption">
                 <div class="container">
                     <div class="row justify-content-lg-left">
@@ -88,7 +88,7 @@
         </div>
         <div class="row row-30 justify-content-center">
             <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3 wow fadeInLeft">
-                <a class="variety-box-wrapper">
+                <a class="variety-box-wrapper" href="/Tienda">
                     <figure class="variety-box">
                         <div class="variety-media">
                             <img src="{{ URL::asset('images/categorias/shopping_list_icon_192691.ico') }}" alt="" width="60" />
@@ -100,7 +100,7 @@
                 </a>
             </div>
             <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3 wow fadeInLeft">
-                <a class="variety-box-wrapper">
+                <a class="variety-box-wrapper" href="/Tienda">
                     <figure class="variety-box">
                         <div class="variety-media">
                             <img src="{{ URL::asset('images/categorias/cash_register_icon_192650.ico') }}" alt="" width="60" />
@@ -112,7 +112,7 @@
                 </a>
             </div>
             <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3 wow fadeInLeft">
-                <a class="variety-box-wrapper">
+                <a class="variety-box-wrapper" href="/Tienda">
                     <figure class="variety-box">
                         <div class="variety-media">
                             <img src="{{ URL::asset('images/categorias/Alpha_Aberrant_Ascension_Implant.png') }}" alt="" width="60" />
@@ -124,7 +124,7 @@
                 </a>
             </div>
             <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3 wow fadeInLeft">
-                <a class="variety-box-wrapper">
+                <a class="variety-box-wrapper" href="/Tienda">
                     <figure class="variety-box">
                         <div class="variety-media">
                             <img src="{{ URL::asset('images/categorias/Artifact_of_the_Strong.png') }}" alt="" width="60" />
@@ -136,7 +136,7 @@
                 </a>
             </div>
             <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3 wow fadeInLeft">
-                <a class="variety-box-wrapper">
+                <a class="variety-box-wrapper" href="/Tienda">
                     <figure class="variety-box">
                         <div class="variety-media">
                             <img src="{{ URL::asset('images/categorias/thylacoleo.png') }}" alt="" width="80" />
@@ -148,7 +148,7 @@
                 </a>
             </div>
             <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3 wow fadeInLeft">
-                <a class="variety-box-wrapper">
+                <a class="variety-box-wrapper" href="/Tienda">
                     <figure class="variety-box">
                         <div class="variety-media">
                             <img src="{{ URL::asset('images/categorias/Tek_Trike.png') }}" alt="" width="80" />
@@ -160,7 +160,7 @@
                 </a>
             </div>
             <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3 wow fadeInLeft">
-                <a class="variety-box-wrapper">
+                <a class="variety-box-wrapper" href="/Tienda">
                     <figure class="variety-box">
                         <div class="variety-media" style="display: inline-block !important; flex-direction: row !important;">
                             <img src="{{ URL::asset('images/categorias/shadowmane.png') }}" alt="" width="80" />
@@ -173,7 +173,7 @@
                 </a>
             </div>
             <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3 wow fadeInLeft">
-                <a class="variety-box-wrapper">
+                <a class="variety-box-wrapper" href="/Tienda">
                     <figure class="variety-box">
                         <div class="variety-media">
                             <img src="{{ URL::asset('images/categorias/stryder.png') }}" alt="" width="80" />
@@ -185,7 +185,7 @@
                 </a>
             </div>
             <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3 wow fadeInLeft">
-                <a class="variety-box-wrapper">
+                <a class="variety-box-wrapper" href="/Tienda">
                     <figure class="variety-box">
                         <div class="variety-media">
                             <img src="{{ URL::asset('images/categorias/Dossier_Dragon.png') }}" alt="" width="110" />
@@ -197,7 +197,7 @@
                 </a>
             </div>
             <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3 wow fadeInLeft">
-                <a class="variety-box-wrapper">
+                <a class="variety-box-wrapper" href="/Tienda">
                     <figure class="variety-box">
                         <div class="variety-media">
                             <img src="{{ URL::asset('images/categorias/Rex_Saddle.png') }}" alt="" width="80" />
@@ -209,7 +209,7 @@
                 </a>
             </div>
             <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3 wow fadeInLeft">
-                <a class="variety-box-wrapper">
+                <a class="variety-box-wrapper" href="/Tienda">
                     <figure class="variety-box">
                         <div class="variety-media">
                             <img src="{{ URL::asset('images/categorias/box_parcel_icon_192643.ico') }}" alt="" width="70" />

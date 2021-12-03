@@ -62,21 +62,29 @@
                             <div class="rd-navbar-main-element">
                                 <div class="rd-navbar-nav-wrap">
                                     <!-- RD Navbar Nav-->
+                                    {{--  --}}
                                     <ul class="rd-navbar-nav">
-                                        <li class="rd-nav-item active">
-                                            <a class="rd-nav-link" href="/Inicio">Inicio</a>
+                                        <li class="rd-nav-item {{ Route::currentRouteNamed('Inicio') ? 'active' : '' }}">
+                                            <a class="rd-nav-link" href="Inicio">Inicio</a>
                                         </li>
-                                        <li class="rd-nav-item">
-                                            <a class="rd-nav-link" href="/Acerca">Nosotros</a>
+                                        <li class="rd-nav-item {{ Route::currentRouteNamed('Acerca') ? 'active' : '' }}">
+                                            <a class="rd-nav-link" href="Acerca">Nosotros</a>
                                         </li>
-                                        <li class="rd-nav-item">
-                                            <a class="rd-nav-link" href="/Donaciones">Donaciones</a>
+                                        <li class="rd-nav-item {{ Route::currentRouteNamed('Tienda') ? 'active' : '' }}">
+                                            <a class="rd-nav-link" href="Tienda">Tienda</a>
                                         </li>
-                                        <li class="rd-nav-item">
-                                            <a class="rd-nav-link" href="/Servers">Servers</a>
-                                        </li>
-                                        <li class="rd-nav-item">
-                                            <a class="rd-nav-link" href="/Tienda">Tienda</a>
+                                        <li class="rd-nav-item dropdown">
+                                            <a class="rd-nav-link dropdown-toggle" href="#" id="navbarDropdown"
+                                                role="button" data-toggle="dropdown" aria-haspopup="true"
+                                                aria-expanded="false">
+                                                Servers
+                                            </a>
+                                            <div class="dropdown-menu" aria-labelledby="navbarDropdown" style="color: #fff !important; background-color: #202020 !important;">
+                                                <a class="dropdown-item {{ Route::currentRouteNamed('Servers') ? 'active' : '' }}" href="Servers" style="color: #fff !important;">Servers</a>
+                                                <a class="dropdown-item {{ Route::currentRouteNamed('Donaciones') ? 'active' : '' }}" href="Donaciones" style="color: #fff !important;">Donaciones</a>
+                                                <a class="dropdown-item {{ Route::currentRouteNamed('Cajas') ? 'active' : '' }}" href="Cajas" style="color: #fff !important;">Cajas</a>
+                                                <div class="dropdown-divider"></div>
+                                            </div>
                                         </li>
                                     </ul>
                                 </div>
@@ -87,7 +95,7 @@
             </div>
         </header>
 
-        @yield('body')
+        @yield('bodyWeb')
 
         <footer class="section footer-2">
             <div class="container">
