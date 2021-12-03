@@ -18,9 +18,7 @@ use App\Http\Controllers\TiendaController;
 |
 */
 
-Route::get('/', function () {
-    return view('web/inicio');
-});
+Route::get('/', [InicioController::class, 'index'])->name('Inicio');
 
 /* Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
     return view('dashboard');
