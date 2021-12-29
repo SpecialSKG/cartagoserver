@@ -23,6 +23,20 @@
 <link href="{{ URL::asset('css/web/fonts.css') }}" rel="stylesheet">
 <link href="{{ URL::asset('css/web/style.css') }}" rel="stylesheet" id="main-styles-link">
 <script src="{{ URL::asset('js/jquery-3.6.0.min.js') }}"></script>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-EHHTK2BZ01"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+        dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'G-EHHTK2BZ01');
+</script>
+
 </head>
 
 <body>
@@ -64,13 +78,16 @@
                                     <!-- RD Navbar Nav-->
                                     {{--  --}}
                                     <ul class="rd-navbar-nav">
-                                        <li class="rd-nav-item {{ Route::currentRouteNamed('Inicio') ? 'active' : '' }}">
+                                        <li
+                                            class="rd-nav-item {{ Route::currentRouteNamed('Inicio') ? 'active' : '' }}">
                                             <a class="rd-nav-link" href="Inicio">Inicio</a>
                                         </li>
-                                        <li class="rd-nav-item {{ Route::currentRouteNamed('Acerca') ? 'active' : '' }}">
+                                        <li
+                                            class="rd-nav-item {{ Route::currentRouteNamed('Acerca') ? 'active' : '' }}">
                                             <a class="rd-nav-link" href="Acerca">Nosotros</a>
                                         </li>
-                                        <li class="rd-nav-item {{ Route::currentRouteNamed('Tienda') ? 'active' : '' }}">
+                                        <li
+                                            class="rd-nav-item {{ Route::currentRouteNamed('Tienda') ? 'active' : '' }}">
                                             <a class="rd-nav-link" href="Tienda">Tienda</a>
                                         </li>
                                         <li class="rd-nav-item dropdown">
@@ -79,10 +96,14 @@
                                                 aria-expanded="false">
                                                 Servers
                                             </a>
-                                            <div class="dropdown-menu" aria-labelledby="navbarDropdown" style="color: #fff !important; background-color: #202020 !important;">
-                                                <a class="dropdown-item {{ Route::currentRouteNamed('Servers') ? 'active' : '' }}" href="Servers" style="color: #fff !important;">Servers</a>
-                                                <a class="dropdown-item {{ Route::currentRouteNamed('Donaciones') ? 'active' : '' }}" href="Donaciones" style="color: #fff !important;">Donaciones</a>
-                                                <a class="dropdown-item {{ Route::currentRouteNamed('Cajas') ? 'active' : '' }}" href="Cajas" style="color: #fff !important;">Cajas</a>
+                                            <div class="dropdown-menu" aria-labelledby="navbarDropdown"
+                                                style="color: #fff !important; background-color: #202020 !important;">
+                                                <a class="dropdown-item {{ Route::currentRouteNamed('Servers') ? 'active' : '' }}"
+                                                    href="Servers" style="color: #fff !important;">Servers</a>
+                                                <a class="dropdown-item {{ Route::currentRouteNamed('Donaciones') ? 'active' : '' }}"
+                                                    href="Donaciones" style="color: #fff !important;">Donaciones</a>
+                                                <a class="dropdown-item {{ Route::currentRouteNamed('Cajas') ? 'active' : '' }}"
+                                                    href="Cajas" style="color: #fff !important;">Cajas</a>
                                                 <div class="dropdown-divider"></div>
                                             </div>
                                         </li>
