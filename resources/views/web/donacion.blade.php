@@ -85,8 +85,7 @@
                                 </div>
                                 <div class="clash-card__unit-description">
                                     Puedes pintar tus dinos con plugin dinocolor
-                                    Obtienes Caja verde cada 2h de juego aunque te desconectes o cambies de mapa acumulas el
-                                    tiempo.
+                                    Obtienes Caja verde cada 2h de juego, Si te desconectas del juego o cambias de mapa, se resetea el tiempo.
                                 </div>
                                 <div class="clash-card__unit-stats clash-card__unit-stats--goblin clearfix">
                                     <div class="one-third">
@@ -128,8 +127,7 @@
                                 <div class="clash-card__unit-description">
                                     Acceso a plugin autofarm.
                                     Puedes pintar tus dinos con plugin dinocolor
-                                    1 Caja Morada, cada 2h de juego aunque te desconectes o cambies de mapa, acumulas el
-                                    tiempo.
+                                    1 Caja Morada, cada 2h de juego, Si te desconectas del juego o cambias de mapa, se resetea el tiempo.
                                 </div>
                                 <div class="clash-card__unit-stats clash-card__unit-stats--wizard clearfix">
                                     <div class="one-third">
@@ -170,9 +168,9 @@
                                 </div>
                                 <div class="clash-card__unit-description">
                                     Acceso a plugin autofarm.
-                                    Puedes pintar tus dinos con plugin dinocolor
-                                    Obtienes Caja roja cada 2h de juego aunque te desconectes o cambies de mapa acumulas el
-                                    tiempo.
+                                    Puedes pintar tus dinos con plugin dinocolor.
+                                    Puedes conectar el log de tribu con tu Discord.
+                                    Obtienes Caja roja cada 2h de juego, Si te desconectas del juego o cambias de mapa, se resetea el tiempo.
                                 </div>
                                 <div class="clash-card__unit-stats clash-card__unit-stats--archer clearfix">
                                     <div class="one-third">
@@ -208,13 +206,12 @@
                                 <div class="clash-card__level clash-card__level--giant">Level 4</div>
                                 <div class="clash-card__unit-name">Master</div>
                                 <div class="clash-card__unit-description">
-                                    Valido por 30 Días, 250 puntos cada 30 minutos.
+                                    Valido por 30 Días, 160 puntos cada 30 minutos.
                                 </div>
                                 <div class="clash-card__unit-description">
                                     Acceso a plugin autofarm.
                                     Puedes pintar tus dinos con plugin dinocolor
-                                    Obtienes Caja oro cada 2h de juego aunque te desconectes o cambies de mapa acumulas el
-                                    tiempo y se otorgaran 3 cajas ORO.
+                                    Obtienes Caja oro cada 2h de juego, Si te desconectas del juego o cambias de mapa, se resetea el tiempo.
                                 </div>
                                 <div class="clash-card__unit-stats clash-card__unit-stats--giant clearfix">
                                     <div class="one-third">
@@ -224,7 +221,7 @@
                                         <div class="stat-value">Time</div>
                                     </div>
                                     <div class="one-third">
-                                        <div class="stat">250</div>
+                                        <div class="stat">160</div>
                                         <div class="stat-value">Puntos</div>
                                     </div>
                                     <div class="one-third no-border">
