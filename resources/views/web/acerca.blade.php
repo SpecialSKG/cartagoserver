@@ -186,7 +186,9 @@
                     <h6 class="title">
                         Server x10
                     </h6>
-                    <p class="exeption"></p>
+                    <p class="exeption">
+                        Cluster Completo
+                    </p>
                 </div>
 
             </div>

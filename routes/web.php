@@ -7,6 +7,7 @@ use App\Http\Controllers\CajasController;
 use App\Http\Controllers\ServersController;
 use App\Http\Controllers\DonacionesController;
 use App\Http\Controllers\TiendaController;
+use App\Http\Controllers\PvpDinosVipController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -30,4 +31,4 @@ Route::get('Servers', [ServersController::class, 'index'])->name('Servers');
 Route::get('Donaciones', [DonacionesController::class, 'index'])->name('Donaciones');
 Route::get('Cajas', [CajasController::class, 'index'])->name('Cajas');
 Route::get('Tienda', [TiendaController::class, 'index'])->name('Tienda');
-
+Route::get('PvpDinosVip',[PvpDinosVipController::class, 'index'])->name('PvpDinosVip');

@@ -210,7 +210,9 @@
                                 </div>
                                 <div class="clash-card__unit-description">
                                     Acceso a plugin autofarm.
-                                    Puedes pintar tus dinos con plugin dinocolor
+                                    Acceso a plugin autocrafter.
+                                    Puedes pintar tus dinos con plugin dinocolor.
+                                    Puedes conectar el log de tribu con tu Discord.
                                     Obtienes Caja oro cada 2h de juego, Si te desconectas del juego o cambias de mapa, se resetea el tiempo.
                                 </div>
                                 <div class="clash-card__unit-stats clash-card__unit-stats--giant clearfix">
@@ -391,7 +393,7 @@
                         editar todas las regiones con los colores que desees de cualquier dino de tu tribu.
                         En la wiki de cada dino podrás ver las regiones disponibles y en esta pagina los ID de todos los
                         colores disponibles:
-                        <a class="link-hover" href="https://ark.fandom.com/wiki/Color_IDs">
+                        <a class="link-hover" target="_blank" href="https://ark.fandom.com/wiki/Color_IDs">
                             https://ark.fandom.com/wiki/Color_IDs
                         </a>
                     </p>
@@ -406,7 +408,9 @@
                             <img src="{{ URL::asset('images/donaciones/genero.jpg') }}" alt="" width="770" height="512" />
                         </div>
                         <div class="col-md-6">
-                            <h5>5 Token (2.00€ euro)</h5>
+                            <h5>5 Token (2.00€ Euros)</h5>
+                            <h5>10 Token (3.00€ Euros)</h5>
+                            <h5>20 Token (5.00€ Euros)</h5>
                             <p>
                                 Valido para cambiar el Sexo a 1 dino por token.
                                 Contactar con un Administrador para que sea otorgado el Token.

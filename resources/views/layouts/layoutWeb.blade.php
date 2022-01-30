@@ -99,6 +99,8 @@
                                                     href="Servers" style="color: #fff !important;">Servers</a>
                                                 <a class="dropdown-item {{ Route::currentRouteNamed('Donaciones') ? 'active' : '' }}"
                                                     href="Donaciones" style="color: #fff !important;">Donaciones</a>
+                                                <a class="dropdown-item {{ Route::currentRouteNamed('PvpDinosVip') ? 'active' : '' }}"
+                                                    href="PvpDinosVip" style="color: #fff !important;">Dinos Vip</a>
                                                 <a class="dropdown-item {{ Route::currentRouteNamed('Cajas') ? 'active' : '' }}"
                                                     href="Cajas" style="color: #fff !important;">Box</a>
                                                 <a class="dropdown-item {{ Route::currentRouteNamed('Tienda') ? 'active' : '' }}"
