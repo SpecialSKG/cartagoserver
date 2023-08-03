@@ -97,7 +97,7 @@
                                     <p class="text-uppercase">Your Name</p>
                                     <div class="form-wrap">
                                         <input class="form-input" id="contact-first-name" type="text" name="name"
-                                            data-constraints="@Required">
+                                            >
                                         <label class="form-label" for="contact-first-name">Your Full Name</label>
                                     </div>
                                 </div>
@@ -110,7 +110,7 @@
                                                 Date</span>
                                         </label>
                                         <input class="form-input" id="date-in" data-time-picker="date" type="text"
-                                            name="date" data-constraints="@Required">
+                                            name="date" >
                                     </div>
                                 </div>
                                 <div class="cell-lg-12 cell-md-4 cell-sm-6">
@@ -122,7 +122,7 @@
                                                 Date</span>
                                         </label>
                                         <input class="form-input" id="date-out" data-time-picker="date" type="text"
-                                            name="date" data-constraints="@Required">
+                                            name="date" >
                                     </div>
                                 </div>
                                 <div class="cell-lg-6 cell-md-4 cell-xs-6">
@@ -130,7 +130,7 @@
                                     <div class="form-wrap form-wrap-validation">
                                         <!--Select 2-->
                                         <select class="form-input select-filter" data-minimum-results-search="-1"
-                                            data-placeholder="1" data-constraints="@Required">
+                                            data-placeholder="1" >
                                             <option>&nbsp;</option>
                                             <option value="1">1</option>
                                             <option value="2">2</option>
@@ -145,7 +145,7 @@
                                     <div class="form-wrap form-wrap-validation">
                                         <!--Select 2-->
                                         <select class="form-input select-filter" data-minimum-results-search="-1"
-                                            data-placeholder="0" data-constraints="@Required">
+                                            data-placeholder="0" >
                                             <option>&nbsp;</option>
                                             <option value="1">0</option>
                                             <option value="2">1</option>

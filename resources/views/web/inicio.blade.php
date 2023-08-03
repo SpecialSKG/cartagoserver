@@ -21,7 +21,7 @@
         </div>
     </div>
 
-    <!-- <div class="swiper-meta">
+    <div class="swiper-meta">
         <ul class="links">
             <li><a class="icon icon-meta mdi mdi-facebook" href="#"></a></li>
             <li><a class="icon icon-meta mdi mdi-twitter" href="#"></a></li>
@@ -30,7 +30,7 @@
             <li><a class="icon icon-meta mdi mdi-linkedin" href="#"></a></li>
             <li><a class="icon icon-meta mdi mdi-snapchat" href="#"></a></li>
         </ul>
-    </div> -->
+    </div>
 
 </section>
 <!--Player-->

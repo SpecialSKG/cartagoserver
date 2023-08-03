@@ -82,11 +82,38 @@
                                             class="rd-nav-item {{ Route::currentRouteNamed('Inicio') ? 'active' : '' }}">
                                             <a class="rd-nav-link" href="Inicio">Inicio</a>
                                         </li>
+
                                         <li
                                             class="rd-nav-item {{ Route::currentRouteNamed('Acerca') ? 'active' : '' }}">
                                             <a class="rd-nav-link" href="Acerca">Nosotros</a>
                                         </li>
 
+                                        <li
+                                            class="rd-nav-item {{ Route::currentRouteNamed('Servers') ? 'active' : '' }}">
+                                            <a class="rd-nav-link" href="Servers">Servers</a>
+                                        </li>
+                                        
+                                        <li
+                                            class="rd-nav-item {{ Route::currentRouteNamed('Donaciones') ? 'active' : '' }}">
+                                            <a class="rd-nav-link" href="Donaciones">Donaciones</a>
+                                        </li>
+
+                                        <li
+                                            class="rd-nav-item {{ Route::currentRouteNamed('PvpDinosVip') ? 'active' : '' }}">
+                                            <a class="rd-nav-link" href="PvpDinosVip">PvpDinosVip</a>
+                                        </li>
+
+                                        <li
+                                            class="rd-nav-item {{ Route::currentRouteNamed('Cajas') ? 'active' : '' }}">
+                                            <a class="rd-nav-link" href="Cajas">Cajas</a>
+                                        </li>
+
+                                        <li
+                                            class="rd-nav-item {{ Route::currentRouteNamed('Tienda') ? 'active' : '' }}">
+                                            <a class="rd-nav-link" href="Tienda">Tienda</a>
+                                        </li>
+
+                                        <!-- 
                                         <li class="rd-nav-item dropdown">
                                             <a class="rd-nav-link dropdown-toggle" href="#" id="navbarDropdown"
                                                 role="button" data-toggle="dropdown" aria-haspopup="true"
@@ -108,42 +135,7 @@
                                                 <div class="dropdown-divider"></div>
                                             </div>
                                         </li>
-
-                                        <li class="rd-nav-item dropdown">
-                                            <a class="rd-nav-link dropdown-toggle" href="#" id="navbarDropdown"
-                                                role="button" data-toggle="dropdown" aria-haspopup="true"
-                                                aria-expanded="false">
-                                                Server PVE
-                                            </a>
-                                            <div class="dropdown-menu" aria-labelledby="navbarDropdown"
-                                                style="color: #fff !important; background-color: #202020 !important;">
-                                                <a class="dropdown-item {{ Route::currentRouteNamed('Servers') ? 'active' : '' }}"
-                                                    href="Servers" style="color: #fff !important;">Servers</a>
-                                                <a class="dropdown-item {{ Route::currentRouteNamed('Donaciones') ? 'active' : '' }}"
-                                                    href="Donaciones" style="color: #fff !important;">Donaciones</a>
-                                                <a class="dropdown-item {{ Route::currentRouteNamed('Cajas') ? 'active' : '' }}"
-                                                    href="Cajas" style="color: #fff !important;">Cajas</a>
-                                                <div class="dropdown-divider"></div>
-                                            </div>
-                                        </li>
-
-                                        <li class="rd-nav-item dropdown">
-                                            <a class="rd-nav-link dropdown-toggle" href="#" id="navbarDropdown"
-                                                role="button" data-toggle="dropdown" aria-haspopup="true"
-                                                aria-expanded="false">
-                                                Server RolePlay
-                                            </a>
-                                            <div class="dropdown-menu" aria-labelledby="navbarDropdown"
-                                                style="color: #fff !important; background-color: #202020 !important;">
-                                                <a class="dropdown-item {{ Route::currentRouteNamed('Servers') ? 'active' : '' }}"
-                                                    href="Servers" style="color: #fff !important;">Servers</a>
-                                                <a class="dropdown-item {{ Route::currentRouteNamed('Donaciones') ? 'active' : '' }}"
-                                                    href="Donaciones" style="color: #fff !important;">Donaciones</a>
-                                                <a class="dropdown-item {{ Route::currentRouteNamed('Cajas') ? 'active' : '' }}"
-                                                    href="Cajas" style="color: #fff !important;">Cajas</a>
-                                                <div class="dropdown-divider"></div>
-                                            </div>
-                                        </li>
+                                        -->
 
                                     </ul>
                                 </div>
@@ -271,18 +263,7 @@
                         </ul>
                     </div>
 
-                    <!-- RD Mailform-->
-                    <!-- <div class="col-md-6 col-lg-3">
-                        <h5 class="text-white title">Newsletter</h5>
-                        <p>Keep up with our always upcoming news and updates. Enter your e-mail and subscribe to our newsletter.</p>
-                        <form class="rd-form form-sm rd-mailform" data-form-output="form-output-global" data-form-type="contact" method="post" action="bat/rd-mailform.php">
-                            <div class="form-wrap">
-                                <input class="form-input" id="newsletter-email" type="email" name="email" data-constraints="@Email @Required">
-                                <label class="form-label" for="newsletter-email">Enter your e-mail</label>
-                            </div>
-                            <button class="button button-primary" type="submit">Subscribe</button>
-                        </form>
-                    </div> -->
+                    
                 </div>
                 <!-- Rights-->
                 <p class="rights">
